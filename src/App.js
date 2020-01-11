@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Navbar from './components/Navbar';
+import NavbarHeading from './components/Navbar';
 import { Route, Switch } from 'react-router-dom';
 
 import Home from './components/pages/Home';
@@ -13,7 +13,7 @@ import './App.css';
 function App() {
   return (
     <React.Fragment>
-      <Navbar />
+      <NavbarHeading />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
