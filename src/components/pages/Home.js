@@ -17,6 +17,12 @@ const Home = () => {
                     <Col sm={12} md={6} lg={6}><Signin /></Col>
                 </Row>
             </Container>
+            <Container>
+                <Row>
+                    <Col sm={12} md={6} lg={6}><Ordinance /></Col>
+                    <Col sm={12} md={6} lg={6}><Prevent /></Col>
+                </Row>
+            </Container>
         </div>
     );
 }
