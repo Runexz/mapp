@@ -1,11 +1,12 @@
 import React from 'react';
 
 import { Navbar, Nav } from 'react-bootstrap';
+import './Navbar.css';
 import { NavLink } from 'react-router-dom';
 
 const NavbarHeading = () => {
     return(
-        <Navbar bg="light" expand="lg">
+        <Navbar className="navBg" variant="dark" expand="lg">
   <Navbar.Brand href="/">City Alarm</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
