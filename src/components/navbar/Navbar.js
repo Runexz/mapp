@@ -6,8 +6,8 @@ import './Navbar.css';
 
 const NavbarHeading = () => {
     return(
-        <Navbar className="navBg" variant="dark" expand="lg">
-  <Navbar.Brand href="/">City Alarm</Navbar.Brand>
+        <Navbar fixed="top" className="navBg" variant="dark" expand="lg">
+  <Navbar.Brand href="/">MAPP</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
