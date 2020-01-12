@@ -4,6 +4,8 @@ import JumbotronHeading from '../jumbotron/Jumbotron';
 import { Container, Row, Col } from 'react-bootstrap';
 import Apply from '../apply/Apply';
 import Signin from '../signIn/Signin';
+import Ordinance from '../ordinance/Ordinance';
+import Prevent from '../prevent/Prevent';
 
 const Home = () => {
     return (
