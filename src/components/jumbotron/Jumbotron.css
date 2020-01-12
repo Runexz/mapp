@@ -1,1 +1,8 @@
 /* Jumbotron.css */
+
+.jumboPic {
+    background-image: url('/images/mesFront.jpeg');
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
